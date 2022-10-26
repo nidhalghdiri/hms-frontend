@@ -27,6 +27,7 @@ function Home(props) {
   return (
     <div>
       <h1>الصفحة الرئيسية</h1>
+      <h1>مرحبا بكم</h1>
       <div>{content}</div>
     </div>
   );
