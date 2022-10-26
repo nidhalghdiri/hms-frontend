@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import UserService from "../../services/user.service";
 
 function Home(props) {
@@ -28,6 +29,8 @@ function Home(props) {
     <div>
       <h1>الصفحة الرئيسية</h1>
       <h1>مرحبا بكم</h1>
+      <Link to={"/about"}>من نحن</Link>
+      <Link to={"/login"}>تسجيل الدخول</Link>
       <div>{content}</div>
     </div>
   );
